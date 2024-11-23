@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>Joc</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stil2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <ul>
+        <li><a href="index.html">Acasa</a></li>
+        <li><a href="index1.html">Palmares</a> </li>
+        <li><a href="#">Jucatori Emblematici</a>
+            <ul class="dropdown">
+                <li><a href="https://ro.wikipedia.org/wiki/Ionel_D%C4%83nciulescu">Ionel Danciulescu</a></li>
+                <li><a href="https://ro.wikipedia.org/wiki/Dudu_Georgescu">Dudu Georgescu</a></li>
+                <li><a href="https://ro.wikipedia.org/wiki/Rodion_C%C4%83m%C4%83taru">Rodion Camataru</a></li>
+                <li><a href="https://ro.wikipedia.org/wiki/Dorin_Mateu%C8%9B">Dorin Mateut</a></li>
+            </ul>
+        </li>
+        <li><a href="joc.html">Joc</a></li>    
+    </ul>
+
+    <h1>Selecție Echipa de Minifotbal</h1>
+
+    <div id="playerList">
+        <h2>Lista Jucători Disponibili</h2>
+        <div class="player" id="player1">Golubovic<button onclick="addPlayer('Golubovic', 'player1')">Adaugă</button></div>
+        <div class="player" id="player2">Began <button onclick="addPlayer('Began', 'player2')">Adaugă</button></div>
+        <div class="player" id="player3">Patriche <button onclick="addPlayer('Patriche', 'player3')">Adaugă</button></div>
+        <div class="player" id="player4">Homawoo<button onclick="addPlayer('Homawoo', 'player4')">Adaugă</button></div>
+        <div class="player" id="player5">Moura <button onclick="addPlayer('Moura', 'player5')">Adaugă</button></div>
+        <div class="player" id="player6">Bordusanu<button onclick="addPlayer('Bordusanu', 'player6')">Adaugă</button></div>
+        <div class="player" id="player7">Pavicic<button onclick="addPlayer('Pavicic', 'player7')">Adaugă</button></div>
+        <div class="player" id="player8">Politic<button onclick="addPlayer('Politic', 'player8')">Adaugă</button></div>
+        <div class="player" id="player9">Abdallah<button onclick="addPlayer('Abdallah', 'player9')">Adaugă</button></div>
+        <div class="player" id="player10">Gregorio<button onclick="addPlayer('Gregorio', 'player10')">Adaugă</button></div>
+    </div>
+
+    <div id="selectedTeam">
+        <h2>Echipa Selectată</h2>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
